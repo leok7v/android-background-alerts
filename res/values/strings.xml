@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Alerts</string>
+  <string name="act_name">Alerts</string>
+  <string name="alert_name">Alerts</string>
+  <string name="service_name">Not Sticky Service</string>
+  <string name="title_0">WE DO CARE</string>
+  <string name="details_0">If you haven\'t gotten any error messages  recently, so here is a random one just to let you know that we haven\'t stopped caring.</string>
+  <string name="title_1">DO YOU HAVE A LIFE?</string>
+  <string name="details_1">No Life detected. Press \'Life\' to shutdown and go outside and see the sun for once and enjoy life.</string>
+  <string name="title_2">CATASTROPHIC ERROR</string>
+  <string name="message_2">From out of process sticky service</string>
+  <string name="details_2">User attempted to use program in the manner program meant to be used.\n\n
+Options:\n
+1) Erase computer\n
+2) Weep\n\n
+Dump (scroll down):\n
+^@^@^@^@^@^@^@^@^@^@^@^@^@\n
+android.background Act.OnCreate\n
+android.background:not_sticky BaseService.ctor\n
+android.background:not_sticky BaseService.OnCreate\n
+android.background:not_sticky OutOfProcessNotSticky\n
+android.background:sticky BaseService.ctor\n
+android.background:sticky BaseService.OnCreate\n
+android.background:sticky OutOfProcessSticky\n
+android.background BaseService.ctor\n
+android.background BaseService.OnCreate\n
+android.background InProcessService\n
+android.background InProcessService\n
+android.background Alert.AlertReceiver.onReceive\n
+android.background Alert.enqueue startActivity\n
+android.background Alert.onCreate\n
+android.background Alert.onStart\n
+android.background:sticky OutOfProcessSticky\n
+android.background Alert.AlertReceiver.onReceive\n
+android.background:not_sticky OutOfProcessNotSticky\n
+android.background Alert.AlertReceiver.onReceive\n
+android.background BackgroundThread\n
+android.background InProcessService\n
+android.background Alert.AlertReceiver.onReceive\n
+android.background BackgroundThread\n
+android.background:sticky OutOfProcessSticky\n
+android.background Alert.AlertReceiver.onReceive\n
+android.background:not_sticky OutOfProcessNotSticky\n
+android.background Alert.AlertReceiver.onReceive\n
+android.background InProcessService\n
+android.background Alert.AlertReceiver.onReceive\n
+android.background BackgroundThread\n
+^@^@^@^@^@^@^@^@^@^@^@^@^@
+</string>
+
+</resources>

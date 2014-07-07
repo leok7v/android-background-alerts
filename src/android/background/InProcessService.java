@@ -34,8 +34,8 @@ public class InProcessService extends BaseService {
 
     public void run() {
         String name = getClass().getSimpleName();
-        String title = getResources().getString(R.string.title_0);
-        String details = getResources().getString(R.string.details_0);
+        String title = getResources().getString(R.string.title_1);
+        String details = getResources().getString(R.string.details_1);
         alerts.alert(title, "From " + name + ":" + count, details, false, "Life");
         count++;
 
